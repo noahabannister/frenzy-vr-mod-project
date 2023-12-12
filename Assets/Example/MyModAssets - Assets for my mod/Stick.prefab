@@ -500,7 +500,7 @@ GameObject:
   - component: {fileID: 4192359488436201954}
   - component: {fileID: 7112685785220896498}
   m_Layer: 0
-  m_Name: WeaponTemplate
+  m_Name: Stick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -534,7 +534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b32efb1d4f784a4796cc9aeeec55545, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DisplayName: 
+  DisplayName: Stick
   ModelAddress: 
   MaterialAddress: 
   AlbedoTextureAddress: 
@@ -1129,7 +1129,7 @@ Transform:
   m_GameObject: {fileID: 8872489300386383624}
   m_LocalRotation: {x: -0.70710677, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0.189, z: 0}
-  m_LocalScale: {x: 0.025, y: 0.025, z: 0.75}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 0.5}
   m_Children: []
   m_Father: {fileID: 8370178331206124475}
   m_RootOrder: 0

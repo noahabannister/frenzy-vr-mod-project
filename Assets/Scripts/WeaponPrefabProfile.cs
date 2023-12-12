@@ -5,18 +5,24 @@ using UnityEngine;
 public class WeaponPrefabProfile : MonoBehaviour {
 
     //General Settings
-    //[Header("---GENERAL SETTINGS---")]
+    [Header("---ESSENTIAL SETTINGS---")]
 
     public string
-        UniqueName,
-        PrefabAddress,
-        ModelAddress,
+        DisplayName;
+
+    [Header("---GENERAL SETTINGS---")]
+
+    [Tooltip("Unused. Set up art in editor")]
+    public string
+        ModelAddress;
+    [Tooltip("Unused. Set up art in editor")]
+    public string
         MaterialAddress,
         AlbedoTextureAddress,
         ImpactMaterialAddress;
 
     public float
-        Weight;
+        Weight = 3.0f;
 
     //Melee Settings
     [Header("---MELEE SETTINGS---")]
@@ -32,20 +38,20 @@ public class WeaponPrefabProfile : MonoBehaviour {
 
     public bool
         IsStabber,
-        Stabber_IsDoubleSided;
+        Stabber_IsDoubleSided = false;
 
     public string
         StabberSettingsAddress;
 
     public float
-        Stabber_AngleThreshold,
-        Stabber_Sharpness,
-        Stabber_UnstabThreshold,
-        Stabber_UnstabDelay,
-        Stabber_PerpendicularThreshold;
+        Stabber_AngleThreshold = 0.5f,
+        Stabber_Sharpness = 0.8f,
+        Stabber_UnstabThreshold = 0.01f,
+        Stabber_UnstabDelay = 0.25f,
+        Stabber_PerpendicularThreshold = 0.2f;
 
     public int
-        Stabber_AllowedStabs;
+        Stabber_AllowedStabs = 5;
 
     //Gun Settings
     [Header("---GUN SETTINGS---")]
@@ -54,18 +60,19 @@ public class WeaponPrefabProfile : MonoBehaviour {
         IsGun;
 
     public float
-        Gun_Damage,
-        Gun_Force,
-        Gun_BulletSpeed,
-        Gun_Cooldown;
+        Gun_Damage = 80f,
+        Gun_Force = 20f,
+        Gun_BulletSpeed = 80f,
+        Gun_Cooldown = 0.12f;
 
+    [Tooltip("0 - single, 1 - burst, 2 - automatic")]
     public int
-        Gun_FireType;
+        Gun_FireType = 2;
 
     public bool
-        Gun_ChambersAfterFiring,
-        Gun_EjectCasingAfterFiring,
-        Gun_BoltPushedBackAfterEmpty;
+        Gun_ChambersAfterFiring = true,
+        Gun_EjectCasingAfterFiring = false,
+        Gun_BoltPushedBackAfterEmpty = false;
 
     public Transform
         Gun_AmmoSocket,
@@ -91,30 +98,30 @@ public class WeaponPrefabProfile : MonoBehaviour {
         Recoil_SettingsAddress;
 
     public bool
-        Recoil_UseTwoHandRecoilForce,
-        Recoil_ImpulseForce,
-        Recoil_RandomSideToSideRecoil,
-        Recoil_LimitRecoilForce,
-        Recoil_UseTwoHandMaxUpforce,
-        Recoil_UseTwoHandMaxSideForce;
+        Recoil_UseTwoHandRecoilForce = true,
+        Recoil_ImpulseForce = true,
+        Recoil_RandomSideToSideRecoil = true,
+        Recoil_LimitRecoilForce = true,
+        Recoil_UseTwoHandMaxUpforce = false,
+        Recoil_UseTwoHandMaxSideForce = true;
 
     public float
-        Recoil_UpForce,
-        Recoil_BackwardsForce,
-        Recoil_TwoHandBackwardsForce,
-        Recoil_SideToSideMin,
-        Recoil_SideToSideMax,
-        Recoil_TwoHandSideToSideMin,
-        Recoil_TwoHandSideToSideMax,
-        Recoil_MaxUpForce,
-        Recoil_MaxBackForce,
-        Recoil_TwoHandMaxUpForce,
-        Recoil_MaxSideForce,
-        Recoil_TwoHandMaxSideForce,
-        Recoil_RecoveryDelay,
-        Recoil_TwoHandedRecoveryDelay,
-        Recoil_RecoveryTime,
-        Recoil_TwoHandedRecoveryTime;
+        Recoil_UpForce = 8f,
+        Recoil_BackwardsForce = 18f,
+        Recoil_TwoHandBackwardsForce = 5f,
+        Recoil_SideToSideMin = -1f,
+        Recoil_SideToSideMax = 1f,
+        Recoil_TwoHandSideToSideMin = -0.5f,
+        Recoil_TwoHandSideToSideMax = 0.5f,
+        Recoil_MaxUpForce = 30f,
+        Recoil_MaxBackForce = 0f,
+        Recoil_TwoHandMaxUpForce =0f,
+        Recoil_MaxSideForce = 20f,
+        Recoil_TwoHandMaxSideForce = 0f,
+        Recoil_RecoveryDelay = 0.2f,
+        Recoil_TwoHandedRecoveryDelay = 0.2f,
+        Recoil_RecoveryTime = 0.1f,
+        Recoil_TwoHandedRecoveryTime = 0.05f;
 
     //Bow Settings
     [Header("---BOW SETTINGS---")]
@@ -129,10 +136,10 @@ public class WeaponPrefabProfile : MonoBehaviour {
         ForwardMarker;
 
     public float
-        StringDrawLimit,
-        StringDropLimit,
-        ShootThreshold,
-        Speed,
-        StringSpring,
-        StringHeldSpring;
+        StringDrawLimit = 0.4f,
+        StringDropLimit = 0.45f,
+        ShootThreshold = 0.2f,
+        Speed = 50f,
+        StringSpring = 1000f,
+        StringHeldSpring = 100f;
 }
