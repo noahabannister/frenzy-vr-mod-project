@@ -12,6 +12,8 @@ public class WeaponPrefabProfile : MonoBehaviour {
 
     [Header("---GENERAL SETTINGS---")]
 
+    public Transform GrabPoint;
+
     [Tooltip("Unused. Set up art in editor")]
     public string
         ModelAddress;
@@ -78,7 +80,7 @@ public class WeaponPrefabProfile : MonoBehaviour {
         Gun_AmmoSocket,
         Gun_UpRecoil_UpVector,
         Gun_BackRecoil_ForwardVector,
-        Gun_BulletOrigin_Barrel, 
+        Gun_BulletOrigin_Barrel,
         Gun_BulletOrigin_IronSights,
         Gun_BulletOrigin_Optic,
         Gun_BulletOrigin_Silencer;
@@ -90,10 +92,34 @@ public class WeaponPrefabProfile : MonoBehaviour {
         Gun_MagGrabTrigger,
         Gun_StabilizerGrabTrigger;
 
+    //Gun Cocking Component Settings
+    [Header("---GUN COCKING SETTINGS---")]
+    public Vector3
+        Gun_CockingMechanism_ForwardPosition;
+    public Vector3
+        Gun_CockingMechanism_BackPosition,
+        Gun_CockingMechanism_EjectPosition,
+        Gun_CockingMechanism_ChamberRoundPosition;
+
+    public float
+        Gun_CockingMechanism_ForwardSpeed = 10f,
+        Gun_CockingMechanism_Difficulty = 0.05f,
+        Gun_CockingMechanism_LockTriggerThreshold = 0.7f,
+        Gun_CockingMechanism_LockAccelerationThreshold = 2f;
+
+    public bool
+        Gun_CockingMechanism_ImmediateReleaseWhenOpen = false,
+        Gun_CockingMechanism_LockBackOverride = true,
+        Gun_CockingMechanism_LocksForward = false,
+        Gun_CockingMechanism_TriggerUnlocks = false;
+
+    [Tooltip("0 - Reciprocating, 1 - Nonreciprocating, 2 - Pump")]
+    public int  Gun_CockingMechanism_Type;
+
 
     //Gun Recoil Settings
     [Header("---GUN RECOIL SETTINGS---")]
-    
+
     public string
         Recoil_SettingsAddress;
 
@@ -115,7 +141,7 @@ public class WeaponPrefabProfile : MonoBehaviour {
         Recoil_TwoHandSideToSideMax = 0.5f,
         Recoil_MaxUpForce = 30f,
         Recoil_MaxBackForce = 0f,
-        Recoil_TwoHandMaxUpForce =0f,
+        Recoil_TwoHandMaxUpForce = 0f,
         Recoil_MaxSideForce = 20f,
         Recoil_TwoHandMaxSideForce = 0f,
         Recoil_RecoveryDelay = 0.2f,

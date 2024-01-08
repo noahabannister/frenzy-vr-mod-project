@@ -535,6 +535,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DisplayName: 
+  GrabPoint: {fileID: 4630844851413801875}
   ModelAddress: 
   MaterialAddress: 
   AlbedoTextureAddress: 
@@ -572,6 +573,19 @@ MonoBehaviour:
   Gun_CockingHandleTrigger: {fileID: 7514724475459757849}
   Gun_MagGrabTrigger: {fileID: 7503624090785147056}
   Gun_StabilizerGrabTrigger: {fileID: 1020595397142451128}
+  Gun_CockingMechanism_ForwardPosition: {x: 0, y: 0, z: 0}
+  Gun_CockingMechanism_BackPosition: {x: 0, y: 0, z: 0}
+  Gun_CockingMechanism_EjectPosition: {x: 0, y: 0, z: 0}
+  Gun_CockingMechanism_ChamberRoundPosition: {x: 0, y: 0, z: 0}
+  Gun_CockingMechanism_ForwardSpeed: 10
+  Gun_CockingMechanism_Difficulty: 0.05
+  Gun_CockingMechanism_LockTriggerThreshold: 0.7
+  Gun_CockingMechanism_LockAccelerationThreshold: 2
+  Gun_CockingMechanism_ImmediateReleaseWhenOpen: 0
+  Gun_CockingMechanism_LockBackOverride: 1
+  Gun_CockingMechanism_LocksForward: 0
+  Gun_CockingMechanism_TriggerUnlocks: 0
+  Gun_CockingMechanism_Type: 0
   Recoil_SettingsAddress: 
   Recoil_UseTwoHandRecoilForce: 1
   Recoil_ImpulseForce: 1
