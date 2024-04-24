@@ -1,0 +1,42 @@
+ManifestFileVersion: 0
+CRC: 3142794533
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5ab3fbafbbbf6603eeccc5a10339194e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8a46a83ccfe164d9be0a2e7714dd2a1a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6b32efb1d4f784a4796cc9aeeec55545, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: aa190658200f48447bdb0593a155d9ce, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Example/ExtinctionWeaponsPack/Models/SM_StarterPistol.FBX
+- Assets/Example/ExtinctionWeaponsPack/Textures/PolygonApocalypse_Texture_01_A.png
+- Assets/Example/ExtinctionWeaponsPack/Materials/Texture Atlas Main.mat
+- Assets/Example/ExtinctionWeaponsPack/Prefabs/ExtinctionPistol.prefab
+Dependencies: []

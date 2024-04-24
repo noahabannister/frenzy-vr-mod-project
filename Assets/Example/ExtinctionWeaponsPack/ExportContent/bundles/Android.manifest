@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 2216761988
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: mymod.stick
+      Dependencies: {}
+    Info_1:
+      Name: extinctionweaponspack
+      Dependencies: {}
