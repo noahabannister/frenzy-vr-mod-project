@@ -83,14 +83,20 @@ public class WeaponPrefabProfile : MonoBehaviour {
         Gun_BulletOrigin_Barrel,
         Gun_BulletOrigin_IronSights,
         Gun_BulletOrigin_Optic,
-        Gun_BulletOrigin_Silencer;
+        Gun_BulletOrigin_Silencer,
+        Gun_CockingGrabPoint,
+        Gun_StabilizerGrabPoint;
 
-    public Collider
+    public BoxCollider
         Gun_AmmoSocketTrigger,
         Gun_AutoMagDropTrigger,
         Gun_CockingHandleTrigger,
         Gun_MagGrabTrigger,
         Gun_StabilizerGrabTrigger;
+
+    public GameObject
+        Gun_CockingHandleMesh,
+        Gun_MagMesh;
 
     //Gun Cocking Component Settings
     [Header("---GUN COCKING SETTINGS---")]
