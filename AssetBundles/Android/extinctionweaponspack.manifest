@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 989258469
+CRC: 3682392252
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4b8fe611bb339710e4553f40a9e0b740
+    Hash: e77672509d08d15a784a6301fb61e6de
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 8a46a83ccfe164d9be0a2e7714dd2a1a
+    Hash: a33cee3bb4ffefb63aa36fe835b5810c
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -27,16 +27,29 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 65
   Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 11500000, guid: 6b32efb1d4f784a4796cc9aeeec55545, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: aa190658200f48447bdb0593a155d9ce, type: 3}
 - Class: 115
   Script: {instanceID: 0}
-SerializeReferenceClassIdentifiers: []
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.ArgumentCache
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentListenerMode
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.UnityEvent
 Assets:
 - Assets/Example/ExtinctionWeaponsPack/Models/SM_StarterPistol.FBX
 - Assets/Example/ExtinctionWeaponsPack/Textures/PolygonApocalypse_Texture_01_A.png
+- Assets/Example/ExtinctionWeaponsPack/Sounds/177050__smokevhstapes__fart.wav
 - Assets/Example/ExtinctionWeaponsPack/Materials/Texture Atlas Main.mat
 - Assets/Example/ExtinctionWeaponsPack/Prefabs/ExtinctionPistol.prefab
 Dependencies: []

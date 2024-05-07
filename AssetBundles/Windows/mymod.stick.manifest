@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 989258469
+CRC: 3430005988
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4b8fe611bb339710e4553f40a9e0b740
+    Hash: 29d20aa599531c8588641c9df39a3320
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 8a46a83ccfe164d9be0a2e7714dd2a1a
+    Hash: 453d52cf34fe0e7ac4830d25bcca3835
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -16,8 +16,6 @@ ClassTypes:
 - Class: 21
   Script: {instanceID: 0}
 - Class: 23
-  Script: {instanceID: 0}
-- Class: 28
   Script: {instanceID: 0}
 - Class: 33
   Script: {instanceID: 0}
@@ -33,10 +31,11 @@ ClassTypes:
   Script: {fileID: 11500000, guid: aa190658200f48447bdb0593a155d9ce, type: 3}
 - Class: 115
   Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Example/ExtinctionWeaponsPack/Models/SM_StarterPistol.FBX
-- Assets/Example/ExtinctionWeaponsPack/Textures/PolygonApocalypse_Texture_01_A.png
-- Assets/Example/ExtinctionWeaponsPack/Materials/Texture Atlas Main.mat
-- Assets/Example/ExtinctionWeaponsPack/Prefabs/ExtinctionPistol.prefab
+- Assets/Example/StickMod/Prefabs/Stick.prefab
+- Assets/Example/StickMod/stickBrown.mat
+- Assets/Example/StickMod/stick.fbx
 Dependencies: []

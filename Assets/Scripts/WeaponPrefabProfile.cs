@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class WeaponPrefabProfile : MonoBehaviour {
 
@@ -71,6 +72,10 @@ public class WeaponPrefabProfile : MonoBehaviour {
     public int
         Gun_FireType = 2;
 
+    [Tooltip("0 - Pistol, 1 - Automatic, 2 - Shotgun")]
+    public int
+        Gun_AmmoType = 0;
+
     public bool
         Gun_ChambersAfterFiring = true,
         Gun_EjectCasingAfterFiring = false,
@@ -122,6 +127,10 @@ public class WeaponPrefabProfile : MonoBehaviour {
     [Tooltip("0 - Reciprocating, 1 - Nonreciprocating, 2 - Pump")]
     public int  Gun_CockingMechanism_Type;
 
+    public UnityEvent
+        GunEvents_OnLoaded,
+        GunEvents_OnEmpty,
+        GunEvents_OnFired;
 
     //Gun Recoil Settings
     [Header("---GUN RECOIL SETTINGS---")]
