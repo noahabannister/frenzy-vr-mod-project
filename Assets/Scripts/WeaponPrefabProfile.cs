@@ -39,6 +39,10 @@ public class WeaponPrefabProfile : MonoBehaviour {
     public Collider[]
         StabberColliders;
 
+    public Transform
+        Stabber_Tip,
+        Stabber_Base;
+
     public bool
         IsStabber,
         Stabber_IsDoubleSided = false;

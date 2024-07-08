@@ -543,6 +543,8 @@ MonoBehaviour:
   Weight: 3
   Melee_Damage: 0
   StabberColliders: []
+  Stabber_Tip: {fileID: 4120718427066329925}
+  Stabber_Base: {fileID: 8123551866402935280}
   IsStabber: 0
   Stabber_IsDoubleSided: 0
   StabberSettingsAddress: 
@@ -558,6 +560,7 @@ MonoBehaviour:
   Gun_BulletSpeed: 80
   Gun_Cooldown: 0.12
   Gun_FireType: 2
+  Gun_AmmoType: 0
   Gun_ChambersAfterFiring: 1
   Gun_EjectCasingAfterFiring: 0
   Gun_BoltPushedBackAfterEmpty: 0
@@ -568,11 +571,15 @@ MonoBehaviour:
   Gun_BulletOrigin_IronSights: {fileID: 5286769575989312880}
   Gun_BulletOrigin_Optic: {fileID: 4124850968497702067}
   Gun_BulletOrigin_Silencer: {fileID: 3747378931296962983}
+  Gun_CockingGrabPoint: {fileID: 0}
+  Gun_StabilizerGrabPoint: {fileID: 0}
   Gun_AmmoSocketTrigger: {fileID: 3485122788965311589}
   Gun_AutoMagDropTrigger: {fileID: 6283305844417154637}
   Gun_CockingHandleTrigger: {fileID: 7514724475459757849}
   Gun_MagGrabTrigger: {fileID: 7503624090785147056}
   Gun_StabilizerGrabTrigger: {fileID: 1020595397142451128}
+  Gun_CockingHandleMesh: {fileID: 0}
+  Gun_MagMesh: {fileID: 0}
   Gun_CockingMechanism_ForwardPosition: {x: 0, y: 0, z: 0}
   Gun_CockingMechanism_BackPosition: {x: 0, y: 0, z: 0}
   Gun_CockingMechanism_EjectPosition: {x: 0, y: 0, z: 0}
@@ -586,6 +593,15 @@ MonoBehaviour:
   Gun_CockingMechanism_LocksForward: 0
   Gun_CockingMechanism_TriggerUnlocks: 0
   Gun_CockingMechanism_Type: 0
+  GunEvents_OnLoaded:
+    m_PersistentCalls:
+      m_Calls: []
+  GunEvents_OnEmpty:
+    m_PersistentCalls:
+      m_Calls: []
+  GunEvents_OnFired:
+    m_PersistentCalls:
+      m_Calls: []
   Recoil_SettingsAddress: 
   Recoil_UseTwoHandRecoilForce: 1
   Recoil_ImpulseForce: 1

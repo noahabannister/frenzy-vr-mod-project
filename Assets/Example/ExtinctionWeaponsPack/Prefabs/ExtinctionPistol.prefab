@@ -575,6 +575,8 @@ MonoBehaviour:
   Weight: 3
   Melee_Damage: 0
   StabberColliders: []
+  Stabber_Tip: {fileID: 4120718427066329925}
+  Stabber_Base: {fileID: 8123551866402935280}
   IsStabber: 0
   Stabber_IsDoubleSided: 0
   StabberSettingsAddress: 
