@@ -1,0 +1,65 @@
+ManifestFileVersion: 0
+CRC: 2689422997
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c8664e7fa4df23607fc9cc5bf270d8ab
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 674a079b34286493abd8f7c3bf9ddef7
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: f403861d8be5b7148a925bbed3b692d0, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: NPCPrefabProfile/NPCBoneProfile_Box
+- AssemblyName: Assembly-CSharp
+  ClassName: NPCPrefabProfile/NPCBoneProfile_Capsule
+Assets:
+- Assets/Example/KawaiiEnemies/Textures/body_01.tga
+- Assets/Example/KawaiiEnemies/Materials/body.mat
+- Assets/Example/KawaiiEnemies/Materials/eye_L1.mat
+- Assets/Example/KawaiiEnemies/Textures/hair_01.tga
+- Assets/Example/KawaiiEnemies/Materials/skin1.mat
+- Assets/Example/KawaiiEnemies/Models/unitychan.fbx
+- Assets/Example/KawaiiEnemies/Materials/mat_cheek.mat
+- Assets/Example/KawaiiEnemies/Textures/face_00.tga
+- Assets/Example/KawaiiEnemies/Materials/eyebase.mat
+- Assets/Example/KawaiiEnemies/Materials/Left.mat
+- Assets/Example/KawaiiEnemies/Materials/eyeline.mat
+- Assets/Example/KawaiiEnemies/Materials/eye_R1.mat
+- Assets/Example/KawaiiEnemies/Textures/eye_iris_R_00.tga
+- Assets/Example/KawaiiEnemies/Prefabs/unitychan.prefab
+- Assets/Example/KawaiiEnemies/Textures/skin_01.tga
+- Assets/Example/KawaiiEnemies/Materials/Right.mat
+- Assets/Example/KawaiiEnemies/Textures/eye_iris_L_00.tga
+- Assets/Example/KawaiiEnemies/Textures/cheek_00.tga
+- Assets/Example/KawaiiEnemies/Textures/eyeline_00.tga
+- Assets/Example/KawaiiEnemies/Materials/hair.mat
+- Assets/Example/KawaiiEnemies/Materials/face.mat
+Dependencies: []

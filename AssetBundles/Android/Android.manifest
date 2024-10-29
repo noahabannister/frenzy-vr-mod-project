@@ -1,7 +1,16 @@
 ManifestFileVersion: 0
-CRC: 1523684284
+CRC: 2443891448
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
       Name: extinctionweaponspack
+      Dependencies: {}
+    Info_1:
+      Name: kawaiienemies
+      Dependencies: {}
+    Info_2:
+      Name: scenedemo
+      Dependencies: {}
+    Info_3:
+      Name: scenedemo_assets
       Dependencies: {}

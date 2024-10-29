@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2220085
+CRC: 2861897000
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 33b3db1953a5f69669f17e838a439119
+    Hash: 90e64b1b0b2877490e1e1ad5e80019e3
   TypeTreeHash:
     serializedVersion: 2
-    Hash: a33cee3bb4ffefb63aa36fe835b5810c
+    Hash: 711f5aea91ccca84ef0f104f56f04a85
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -37,6 +37,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: aa190658200f48447bdb0593a155d9ce, type: 3}
 - Class: 115
   Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers:
 - AssemblyName: UnityEngine.CoreModule
   ClassName: UnityEngine.Events.ArgumentCache
@@ -47,9 +49,15 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: UnityEngine.CoreModule
   ClassName: UnityEngine.Events.UnityEvent
 Assets:
+- Assets/Example/ExtinctionWeaponsPack/Prefabs/ExtinctionPipe.prefab
+- Assets/Example/ExtinctionWeaponsPack/Models/SM_Spear.FBX
 - Assets/Example/ExtinctionWeaponsPack/Models/SM_StarterPistol.FBX
 - Assets/Example/ExtinctionWeaponsPack/Textures/PolygonApocalypse_Texture_01_A.png
 - Assets/Example/ExtinctionWeaponsPack/Sounds/177050__smokevhstapes__fart.wav
 - Assets/Example/ExtinctionWeaponsPack/Materials/Texture Atlas Main.mat
 - Assets/Example/ExtinctionWeaponsPack/Prefabs/ExtinctionPistol.prefab
+- Assets/Example/ExtinctionWeaponsPack/Prefabs/ExtinctionMG.prefab
+- Assets/Example/ExtinctionWeaponsPack/Prefabs/ExtinctionSpear.prefab
+- Assets/Example/ExtinctionWeaponsPack/Models/SM_MachineGunMini.FBX
+- Assets/Example/ExtinctionWeaponsPack/Models/SM_PipeBat.FBX
 Dependencies: []
