@@ -6,6 +6,10 @@ using UnityEngine;
 public class NPCPrefabProfile : MonoBehaviour {
 
     public string DisplayName;
+    public float WalkSpeed = 1.55f;
+    public float RunSpeed = 3f;
+    [Tooltip("Names of the enemies that can be replaced by this one. See documentation for list")]
+    public List<string> ReplaceNames = new List<string>();
 
     public bool DrawBones;
 
@@ -34,7 +38,7 @@ public class NPCPrefabProfile : MonoBehaviour {
         FootLeft,
         FootRight;
 
-    public enum BoneDirection { X = 0, Y = 1, Z = 2 }
+    public enum BoneDirection { X = 0, Y = 1, Z = 2}
 
     private Dictionary<string, string> BoneNames = new Dictionary<string, string>();
 
@@ -170,6 +174,18 @@ public class NPCPrefabProfile : MonoBehaviour {
         HandRight.AutoCalculateBone();
         UpperLegRight.AutoCalculateBone();
         LowerLegRight.AutoCalculateBone();
+
+        Head.Length = Mathf.Max(Head.Length, Head.Radius * 2f);
+        UpperArmLeft.Length = Mathf.Max(UpperArmLeft.Length, UpperArmLeft.Radius * 2f);
+        LowerArmLeft.Length = Mathf.Max(LowerArmLeft.Length, LowerArmLeft.Radius * 2f);
+        HandLeft.Length = Mathf.Max(HandLeft.Length, HandLeft.Radius * 2f);
+        UpperLegLeft.Length = Mathf.Max(UpperLegLeft.Length, UpperLegLeft.Radius * 2f);
+        LowerLegLeft.Length = Mathf.Max(LowerLegLeft.Length, LowerLegLeft.Radius * 2f);
+        UpperArmRight.Length = Mathf.Max(UpperArmRight.Length, UpperArmRight.Radius * 2f);
+        LowerArmRight.Length = Mathf.Max(LowerArmRight.Length, LowerArmRight.Radius * 2f);
+        HandRight.Length = Mathf.Max(HandRight.Length, HandRight.Radius * 2f);
+        UpperLegRight.Length = Mathf.Max(UpperLegRight.Length, UpperLegRight.Radius * 2f);
+        LowerLegRight.Length = Mathf.Max(LowerLegRight.Length, LowerLegRight.Radius * 2f);
     }
 
     public void BonesFromAvatar() {
@@ -264,8 +280,8 @@ public class NPCPrefabProfile : MonoBehaviour {
                     back = Vector3.back;
                     break;
                 case 1:
-                    up = Vector3.up;
-                    down = Vector3.down;
+                    up = Vector3.down;
+                    down = Vector3.up;
                     left = Vector3.left;
                     right = Vector3.right;
                     forward = Vector3.forward;

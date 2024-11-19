@@ -1,0 +1,58 @@
+ManifestFileVersion: 0
+CRC: 768492219
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 742e15e1b58ba722e122fee5cc53a35f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 646990ccb705d63a32bd701218bae8a9
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 238
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Example/Tubbies/Scene/Art/tubbytronic-superdome/source/Tubbytronic Superdome/Textures/number_5.jpg
+- Assets/Example/Tubbies/Scene/Prefabs/Breakables/TubbyWindowBroken.prefab
+- Assets/Example/Tubbies/Scene/Art/tubbytronic-superdome/source/Tubbytronic Superdome/Textures/number_1.jpg
+- Assets/Example/Tubbies/Scene/Prefabs/Breakables/TubbyDoorBroken.prefab
+- Assets/Example/Tubbies/Scene/Art/tubbytronic-superdome/source/Tubbytronic Superdome/Textures/number_4.jpg
+- Assets/Example/Tubbies/Scene/Art/tubbytronic-superdome/textures/number_2.jpeg
+- Assets/Example/Tubbies/Scene/Art/tubbytronic-superdome/fractures/WindowsBroken.fbx
+- Assets/Example/Tubbies/Scene/Art/tubbytronic-superdome/textures/number_1.jpeg
+- Assets/Example/Tubbies/Scene/Art/tubbytronic-superdome/source/Tubbytronic Superdome/Textures/number_2.jpg
+- Assets/Example/Tubbies/Scene/Art/tubbytronic-superdome/textures/number_4.jpeg
+- Assets/Example/Tubbies/Scene/Art/TerrainTextures/rocky_terrain_02_diff_2k.jpg
+- Assets/Example/Tubbies/Scene/Art/tubbytronic-superdome/source/Tubbytronic Superdome/Textures/number_3.jpg
+- Assets/Example/Tubbies/Scene/Art/TerrainTextures/DomeGrass.mat
+- Assets/Example/Tubbies/Scene/Art/tubbytronic-superdome/fractures/DoorBroken.fbx
+- Assets/Example/Tubbies/Scene/Art/tubbytronic-superdome/textures/number_5.jpeg
+- Assets/Example/Tubbies/Scene/Art/tubbytronic-superdome/textures/number_3.jpeg
+- Assets/Example/Tubbies/Scene/Scenes/Tubby Hill/NavMesh.asset
+- Assets/Example/Tubbies/Scene/Art/tubbytronic-superdome/source/Tubbytronic Superdome/Tubbytronic
+  Superdome.fbx
+- Assets/Example/Tubbies/Scene/Art/tubbytronic-superdome/source/Tubbytronic Superdome/WindowsSeparate.fbx
+Dependencies: []

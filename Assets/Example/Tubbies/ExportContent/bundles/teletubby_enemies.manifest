@@ -1,0 +1,77 @@
+ManifestFileVersion: 0
+CRC: 74011629
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2c7704bbd845ad734b5ed2b01a2dab87
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1d0a804720ba27814fb8b84fcc0860bd
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: f403861d8be5b7148a925bbed3b692d0, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: NPCPrefabProfile/NPCBoneProfile_Box
+- AssemblyName: Assembly-CSharp
+  ClassName: NPCPrefabProfile/NPCBoneProfile_Capsule
+Assets:
+- Assets/Example/Tubbies/Enemies/Art/textures/tv.jpeg
+- Assets/Example/Tubbies/Enemies/Art/textures/po.jpeg
+- Assets/Example/Tubbies/Enemies/Art/source/Teletubbies/Textures/po_face.jpg
+- Assets/Example/Tubbies/Enemies/Prefabs/Dipsy.prefab
+- Assets/Example/Tubbies/Enemies/Art/textures/po_face.jpeg
+- Assets/Example/Tubbies/Enemies/Art/source/Teletubbies/Textures/po.jpg
+- Assets/Example/Tubbies/Enemies/Art/source/Teletubbies/Materials/LaLa body.mat
+- Assets/Example/Tubbies/Enemies/Art/source/Teletubbies/Textures/tv.jpg
+- Assets/Example/Tubbies/Enemies/Art/textures/po_ear.jpeg
+- Assets/Example/Tubbies/Enemies/Art/source/Teletubbies/Materials/TinkyWinky face.mat
+- Assets/Example/Tubbies/Enemies/Art/source/Teletubbies/Materials/LaLa ear.mat
+- Assets/Example/Tubbies/Enemies/Art/source/Teletubbies/Materials/Po ear.mat
+- Assets/Example/Tubbies/Enemies/Prefabs/LaLa.prefab
+- Assets/Example/Tubbies/Enemies/Art/source/Teletubbies/Textures/po_ear.jpg
+- Assets/Example/Tubbies/Enemies/Art/source/Teletubbies/Textures/tinkywinky.jpg
+- Assets/Example/Tubbies/Enemies/Art/source/Teletubbies/Textures/dipsy_face.jpg
+- Assets/Example/Tubbies/Enemies/Art/source/Teletubbies/Textures/tinkywinky_face.jpg
+- Assets/Example/Tubbies/Enemies/Art/source/Teletubbies/Textures/plantar.jpg
+- Assets/Example/Tubbies/Enemies/Art/source/Teletubbies/Materials/TinkyWinky body.mat
+- Assets/Example/Tubbies/Enemies/Art/source/Teletubbies/Materials/LaLa face.mat
+- Assets/Example/Tubbies/Enemies/Art/source/Teletubbies/Textures/laalaa_face.jpg
+- Assets/Example/Tubbies/Enemies/Art/source/Teletubbies/Materials/Dipsy body.mat
+- Assets/Example/Tubbies/Enemies/Art/source/Teletubbies/Textures/tinkywinky_ear.jpg
+- Assets/Example/Tubbies/Enemies/Prefabs/Po.prefab
+- Assets/Example/Tubbies/Enemies/Art/source/Teletubbies/Materials/Dipsy face.mat
+- Assets/Example/Tubbies/Enemies/Art/source/Teletubbies/Materials/Po face.mat
+- Assets/Example/Tubbies/Enemies/Art/source/Teletubbies/Textures/laalaa_ear.jpg
+- Assets/Example/Tubbies/Enemies/Art/textures/plantar.jpeg
+- Assets/Example/Tubbies/Enemies/Art/source/Teletubbies/Materials/TinkyWinky ear.mat
+- Assets/Example/Tubbies/Enemies/Art/source/Teletubbies/Teletubbies.fbx
+- Assets/Example/Tubbies/Enemies/Art/source/Teletubbies/Textures/dipsy_ear.jpg
+- Assets/Example/Tubbies/Enemies/Art/source/Teletubbies/Materials/Dipsy ear.mat
+- Assets/Example/Tubbies/Enemies/Prefabs/TinkyWinky.prefab
+- Assets/Example/Tubbies/Enemies/Art/source/Teletubbies/Materials/Po body.mat
+- Assets/Example/Tubbies/Enemies/Art/source/Teletubbies/Textures/dipsy.jpg
+- Assets/Example/Tubbies/Enemies/Art/source/Teletubbies/Textures/laalaa.jpg
+- Assets/Example/Tubbies/Enemies/Art/source/Teletubbies/Materials/tv.mat
+Dependencies: []
